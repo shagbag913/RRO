@@ -1,0 +1,7 @@
+id=aodenabler
+name=Always On Display Enabler
+version=v1
+versionCode=1
+author=shagbag913
+description=Enables Always On Display via an RRO overlay. Requires Android P+ for now.
+minMagisk=17000

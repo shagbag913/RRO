@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+cleanup() {
+    rm -rf AODEnabler* 2>/dev/null
+}
+
+while [[ $# -ge 1 ]]; do
+    case $1 in
+        -clean)
+            cleanup
+            exit;;
+        *)
+            echo "Invalid command."
+            exit
+    esac
+    shift
+done
+cleanup
+aapt package -M AndroidManifest.xml -S res/ -I ~/Android/Sdk/platforms/android-28/android.jar -F AODEnabler.apk.u
+jarsigner -keystore ~/keystores/shagbag913.jks AODEnabler.apk.u shagbag913
+zipalign 4 AODEnabler.apk.u AODEnabler.apk
+cp AODEnabler.apk magisk-module/system/product/overlay/
+cd magisk-module && zip -r9 ../AODEnabler.zip *
