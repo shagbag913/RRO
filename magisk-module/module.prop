@@ -1,7 +1,7 @@
 id=aodenabler
-name=Always On Display Enabler
+name=Corner Unrounder
 version=v1
 versionCode=1
 author=shagbag913
-description=Enables Always On Display via an RRO overlay. Requires Android P+ for now.
+description=Unrounds the corners on Pie that the framework-res overlay sets on Pixel vendor partitions
 minMagisk=17000

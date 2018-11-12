@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shagbag913.aodenabler">
+    package="com.shagbag913.cornerunrounder">
 
-    <overlay android:priority="1"
+    <overlay android:priority="99"
         android:isStatic="true"
         android:targetPackage="android"/>
 
     <application android:hasCode="false"
-        android:label="AOD Enabler"/>
+        android:label="Corner Unrounder"/>
 
 </manifest>

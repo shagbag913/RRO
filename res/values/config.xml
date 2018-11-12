@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <dimen name="config_dialogCornerRadius">0.0dip</dimen>
+    <dimen name="config_buttonCornerRadius">0.0dip</dimen>
+    <dimen name="config_progressBarCornerRadius">0.0dip</dimen>
 </resources>
