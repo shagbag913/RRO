@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.shagbag913.aodenabler">
 
-    <overlay android:priority="1"
+    <overlay android:priority="50"
         android:isStatic="true"
         android:targetPackage="android"/>
 
