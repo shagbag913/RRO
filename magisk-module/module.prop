@@ -1,7 +1,0 @@
-id=aodenabler
-name=Always On Display Enabler
-version=v3
-versionCode=3
-author=shagbag913
-description=Enables Always On Display via an RRO overlay.
-minMagisk=17000
